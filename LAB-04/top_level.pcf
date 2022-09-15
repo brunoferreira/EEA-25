@@ -1,0 +1,18 @@
+set_io seg_count[6] E2
+set_io seg_count[5] B1
+set_io seg_count[4] C5
+set_io seg_count[3] C6
+set_io seg_count[2] E3
+set_io seg_count[1] C2
+set_io seg_count[0] B4
+set_io clk D1
+set_io -pullup yes rst_btn A1
+set_io -nowarn PMOD1 D1
+set_io -nowarn PMOD1 A1
+set_io -nowarn PMOD2 E2
+set_io -nowarn PMOD1 B1
+set_io -nowarn PMOD2 C5
+set_io -nowarn PMOD2 C6
+set_io -nowarn PMOD1 E3
+set_io -nowarn PMOD2 C2
+set_io -nowarn PMOD2 B4
