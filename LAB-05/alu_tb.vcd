@@ -1,0 +1,167 @@
+$date
+	Thu Oct  6 11:31:14 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module alu_tb $end
+$var wire 4 ! RESULT [3:0] $end
+$var wire 1 " F_ZERO $end
+$var reg 4 # A [3:0] $end
+$var reg 4 $ B [3:0] $end
+$var reg 3 % OP [2:0] $end
+$scope module uut $end
+$var wire 4 & opXOR [3:0] $end
+$var wire 4 ' opand [3:0] $end
+$var wire 3 ( operation [2:0] $end
+$var wire 4 ) opor [3:0] $end
+$var wire 4 * src_a [3:0] $end
+$var wire 4 + src_b [3:0] $end
+$var wire 1 " zero_flag $end
+$var wire 4 , opsr [3:0] $end
+$var wire 4 - opsl [3:0] $end
+$var wire 4 . opplus [3:0] $end
+$var wire 4 / opminus [3:0] $end
+$var wire 4 0 opAltB [3:0] $end
+$var wire 4 1 alu_result [3:0] $end
+$scope module mux $end
+$var wire 4 2 i0 [3:0] $end
+$var wire 4 3 i1 [3:0] $end
+$var wire 4 4 i2 [3:0] $end
+$var wire 4 5 i3 [3:0] $end
+$var wire 4 6 i4 [3:0] $end
+$var wire 4 7 i5 [3:0] $end
+$var wire 4 8 i6 [3:0] $end
+$var wire 4 9 i7 [3:0] $end
+$var wire 3 : s [2:0] $end
+$var wire 4 ; y [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 ;
+b0 :
+b11 9
+b1 8
+b0 7
+b1111 6
+b100 5
+b11 4
+b11 3
+b0 2
+b0 1
+b1 0
+b1111 /
+b11 .
+b100 -
+b0 ,
+b10 +
+b1 *
+b11 )
+b0 (
+b0 '
+b11 &
+b0 %
+b10 $
+b1 #
+1"
+b0 !
+$end
+#1
+0"
+b11 !
+b11 1
+b11 ;
+b1 %
+b1 (
+b1 :
+#2
+b11 !
+b11 1
+b11 ;
+b10 %
+b10 (
+b10 :
+#3
+b100 !
+b100 1
+b100 ;
+b11 %
+b11 (
+b11 :
+#4
+b1111 !
+b1111 1
+b1111 ;
+b100 %
+b100 (
+b100 :
+#5
+b1 !
+b1 1
+b1 ;
+b110 )
+b110 3
+b110 &
+b110 9
+b101 %
+b101 (
+b101 :
+b110 .
+b110 4
+b0 -
+b0 5
+b10 /
+b10 6
+b1 ,
+b1 7
+b0 0
+b0 8
+b100 #
+b100 *
+#6
+1"
+b0 !
+b0 1
+b0 ;
+b10 '
+b10 2
+b11 )
+b11 3
+b1 &
+b1 9
+b110 %
+b110 (
+b110 :
+b101 .
+b101 4
+b1100 -
+b1100 5
+b1 /
+b1 6
+b0 ,
+b0 7
+b11 #
+b11 *
+#7
+b10 )
+b10 3
+b0 &
+b0 9
+b111 %
+b111 (
+b111 :
+b100 .
+b100 4
+b1000 -
+b1000 5
+b0 /
+b0 6
+b10 #
+b10 *
+#8
