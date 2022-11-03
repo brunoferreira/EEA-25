@@ -542,12 +542,12 @@ module dmem (
 	input [31:0] wd,
 	output [31:0] rd
 );
-reg [31:0] DATA_MEM [100:0];
+reg [31:0] DATA_MEM [63:0];
 always @(posedge clk)
 	if(we)
-		DATA_MEM[a]<=wd;
+		DATA_MEM[a[31:2]]<=wd;
 
-assign rd=DATA_MEM[a];
+assign rd=DATA_MEM[a[31:2]];
 
 endmodule
 
